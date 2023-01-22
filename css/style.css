@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #fbda6a, #11ba6e);
+}
+
+.card-1 {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.card-1__img-box {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background: #000;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-1__img-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-1__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.card-1__details {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-1__details h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #444;
+  line-height: 1.2rem;
+}
+
+.card-1__details h2 span {
+  font-size: 0.95rem;
+  opacity: 0.5;
+}
+
+.card-1__tech {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin: 20px 0;
+}
+
+.card-1__action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1__action-buttons button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  font-weight: 600;
+  background: transparent;
+}
+
+.card-1__action-buttons button a {  
+  color: rgb(8, 83, 8);
+}
